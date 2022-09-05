@@ -92,7 +92,7 @@ function calculateCorrectAnswer(){
         return [operand1 * operand2, "multiply"];
 
     }else if (operator === "-") {
-        return [operand1 - operand2, "subract"];
+        return [operand1 - operand2, "subtract"];
 
     }else{
         alert(`unimplemented operator ${operator}`);
